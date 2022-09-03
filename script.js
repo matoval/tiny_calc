@@ -14,7 +14,7 @@ const handleEvent = (acc, cur) => {
   if (acc && !isAllowedChar(acc)) {
     return ""
   }
-  if (cur === ""){
+  if (cur === "" || !acc && cur === "="){
     return""
   }
   if (cur === "=") {
