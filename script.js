@@ -7,7 +7,7 @@ const addAllParams = e => {
 
 const isAllowedChar = (char) => {
   const allowedChar = ['+','-','*','/','','=','0','1','2','3','4','5','6','7','8','9']
-  return [...char].every( c => [...allowedChar].includes(c))
+  return [...char].every(c => allowedChar.includes(c))
 }
 
 const handleEvent = (acc, cur) => {
