@@ -26,3 +26,4 @@ const handleEvent = (acc, cur) => {
 const changeScreen = (acc, cur) => screen.value = handleEvent(acc, cur)
 
 allButtons.forEach(btn => btn.addEventListener('click', addAllParams))
+
